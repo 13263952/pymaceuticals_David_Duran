@@ -1,56 +1,33 @@
-# pymaceuticals_David_Duran
-Module 5 Challenge
+# Pymaceuticals Analysis - Executive Overview
 
-"Executive Overview"
+This project involves the analysis of pharmaceutical data from a time-interval screening with antineoplastic medications for squamous cell carcinoma in laboratory mice. The trials lasted for 45 days, and the study examined the effects of different treatment regimens on tumor size and other metrics. The primary focus was on the drug regimens Capomulin, Ramicane, Infubinol, and Ceftamin.
 
-Two hundred and forty eight mice began time-interval screening with 
-antineoplastic medications for squamous cell carcinoma.The trials lasted 45 days, the cutaneous
-anomalies were measured in time intervals to identify time-tested reactions to different 
-treatment considerations consisting of: 
+## Key Findings
 
-Capomulin	
-Ceftamin	
-Infubinol	
-Ketapril	
-Naftisol	
-Placebo	
-Propriva	
-Ramicane	
-Stelasyn	
-Zoniferol	
+### Sample Overview
+
+The study included 248 mice, consisting of 51.0% males and 49.0% females. The average age of the mice was 12.7762085 months, which corresponds to approximately 43.20 years in humans. It is worth noting that 45 days of antineoplastic treatment in mice is equivalent to approximately 5 years of treatment in humans.
+![Male and Female](images/male-female.png)
+### Tumor Size
 
 
-The sample consisted of 51.0% Male mice and 49.0% Female mice.The average age of the sample
-was 12.7762085 months, according to PubMed.ncbi.nlm.nih.gov, 9 mouse days equal to a human year.
-The sample discussed assimilates a human age group with 43.20 years of age.
-45 days of antineoplastic treatment on a mouse is comparable to 5 human years of treatment.
+Ramicane had the smallest tumor size, with an average volume of 22.05mm³. The average tumor volume for Ramicane was 40.21mm³, slightly smaller than the average volume for Capomulin (40.67mm³). In contrast, Ketapril had the highest tumor volume at 78.56mm³, which was 30.41mm³ higher than Capomulin. The difference between Ketapril and Capomulin in terms of average tumor volume was 14.55mm³, and the difference in the smallest tumors produced by the two drugs was 21.66mm³.
 
-Focusing on the contrast of Capomulin, Ramincane, Infubinol, and Ceftamin, the following 
-highlights were derived:
+### Drug Comparison
 
+![Drug Comparison Box Plot](images/tumor-size-graph.png)
 
-The smallest tumor based on its size was produced from the trial with Ramicane at a volume of 22.05.
-Ramicanes average over all the trials was .45mm^3 smaller than the final average volume of all Capomulin
-trials.
+The distribution of results for Capomulin and Ramicane showed a similar pattern, with almost parallel distributions. However, an outlier was observed in the Infubinol trials, where one subject had a tumor size of 36.32mm³ while the remaining subjects had tumor sizes above 45mm³ and below 80mm³.
 
-The final average of tumors for Ramicane was 40.21mm^3, and Capomulin's 40.67mm^3 
-On the other hand Ketapril performed the least favorable with the highest tumor volume at 78.56mm^3
-30.41mm^3 higher than Capomulin. The average difference between Ketapril and Capomulin was 14.55mm^3, and
-the difference between the smallest tumors accounted per Ketapril and capomulin was 21.66mm^3
+### Treatment Progress
 
-The distribution of results focused on Capomulin, Ramicane, Infubinol, and Ceftamin can be compared 
-in pairs as expressed on the box plot. Capomulin, and Ramicane performed similarly with an almost
-parallel distribution of results. It is important to acknowledge that an outlier was found with 
-the Infubinol trials, a tumor the size of 36.32mm^3 when the remainder of the subjects maintained 
-their tumors above 45mm^3 and below 80mm^3.
+![Treatment Progress Graph](images/capomulin.png)
 
-The graph following Mouse ID l509 concludes that over the course of the trial, the nature of 
-the healing process allowed the anomaly to grow consistently for about half the time of the 
-trial and the results of capomulin are appreciated on the latter half of the treatment with a decrease 
-in size of about 20%.The correlation between mouse weight and the average tumor volume 0.84. 
+An individual mouse (Mouse ID l509) treated with Capomulin demonstrated a consistent growth in tumor size for about half of the trial duration. However, during the latter half of the treatment, a decrease in tumor size of approximately 20% was observed, highlighting the effectiveness of Capomulin.
 
+### Correlation
 
+There was a strong positive correlation of 0.84 between mouse weight and average tumor volume, suggesting that as the mouse weight increased, so did the tumor volume.
+![Treatment Progress Graph](images/correlation.png)
 
-
-
-
+By conducting this analysis, valuable insights were obtained regarding the effectiveness of different drug regimens in treating tumors in laboratory mice. The findings can contribute to informed decision-making in the field of cancer research and the development of potential treatment options.
